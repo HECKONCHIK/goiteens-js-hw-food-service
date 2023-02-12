@@ -5,10 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page title</title>
     <link rel="stylesheet" href="./sass/index.scss" />
+    <link rel="stylesheet" href="./sass/components/_feedback.scss">
     <script type="module" src="./index.js"></script>
   </head>
   <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+
+<form class="feedback-form js-feedback-form">
+  <label>
+    <b>Ім'я</b>
+    <input type="text" name="name" placeholder="Введите ваше имя" value="Анонім" />
+  </label>
+  <label>
+    <b>Повідомлення</b>
+    <textarea class=".js-feedback-form textarea" name="message" rows="6"></textarea>
+  </label>
+  <button type="submit">Залишити відгук</button>
+</form>
+
   </body>
 </html>
