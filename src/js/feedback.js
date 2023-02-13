@@ -1,13 +1,13 @@
-const formRef = document.querySelector('.js-feedback-form');
-const textareaRef = document.querySelector('.js-feedback-form textarea');
+// const formRef = document.querySelector('.js-feedback-form');
+// const textareaRef = document.querySelector('.js-feedback-form textarea');
 
-formRef.addEventListener('submit', handleFormssubmit);
-textareaRef.addEventListener('input', handleTextareaInput);
+// formRef.addEventListener('submit', handleFormssubmit);
+// textareaRef.addEventListener('input', handleTextareaInput);
 
-function handleFormssubmit(event) {
-    event.preventDefault()
-}
+// function handleFormssubmit(event) {
+//     event.preventDefault()
+// }
 
-function handleTextareaInput(event) {
+// function handleTextareaInput(event) {
     
-}
+// }
