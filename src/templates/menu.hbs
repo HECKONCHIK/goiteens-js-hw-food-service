@@ -1,0 +1,37 @@
+{{#each this}}
+<li class="menu__item">
+    <div class="card">
+        <img src={{image}}
+            alt={{name}} class="card__image" />
+        <div class="card__content">
+            <h2 class="card__name">{{name}}</h2>
+            <p class="card__price">
+                <i class="material-icons"> monetization_on </i>
+                {{price}} кредитів
+            </p>
+
+            <p class="card__descr">
+                Ароматна, ситна, шипляча домашня картопля, фарширована сметанно-беконною
+                начинкою, - це дуже простий і дуже ефектний спосіб нагодувати велику
+                кількість людей, практично не витративши на підготовку ні сил, ні часу.
+                Звичайну картоплю при бажанні тут можна замінити на солодкий батат, а в
+                начинку додати, наприклад, кукурудзу або солодкий червоний перець.
+            </p>
+
+            <ul class="tag-list">
+                <li class="tag-list__item">{{ingredients}}</li>
+                <li class="tag-list__item">{{ingredients}}</li>
+                <li class="tag-list__item">{{ingredients}}</li>
+                <li class="tag-list__item">{{ingredients}}</li>
+                <li class="tag-list__item">{{ingredients}}</li>
+                <li class="tag-list__item">{{ingredients}}</li>
+            </ul>
+        </div>
+
+        <button class="card__button button">
+            <i class="material-icons button__icon"> shopping_cart </i>
+            В корзину
+        </button>
+    </div>
+</li>
+{{#each this}}
