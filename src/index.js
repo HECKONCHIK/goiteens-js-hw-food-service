@@ -1,1 +1,1 @@
-import './js/practice';
+import "./js/menu";
