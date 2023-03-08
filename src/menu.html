@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./sass/components/menu.scss">
   <title>Document</title>
 </head>
 <body>
@@ -16,7 +17,7 @@
           </svg> -->
   
       <div class="theme-switch__control">
-        <input class="theme-switch__toggle" type="checkbox" name="theme" id="theme-switch-toggle"
+        <input class="theme-switch__toggle js-input" type="checkbox" name="theme" id="theme-switch-toggle"
           aria-label="Переключить между тёмной и светлой темой" />
         <label aria-hidden="true" class="theme-switch__track" for="theme-switch-toggle">
         </label>
@@ -31,6 +32,7 @@
   
   <!-- В этот список рендери разметку меню -->
     <ul class="menu js-menu"></ul>
+
   <script src="./js/menu.js" type="module"></script>
 </body>
 </html>
